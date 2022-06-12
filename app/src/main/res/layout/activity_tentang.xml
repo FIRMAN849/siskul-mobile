@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TentangActivity"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="App SI-EKSTRAKURIKULER"
+            android:textAlignment="center"
+            android:textColor="#2f2f2f"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txtTitle"
+            android:src="@drawable/logo3" />
+
+        <TextView
+            android:id="@+id/txtVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgLogo"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/semibold"
+            android:text="VERSION 1.0"
+            android:textAlignment="center"
+            android:textColor="#a6a6a6"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/txtCopyRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtVersion"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/semibold"
+            android:text="© 2022 POLITEKNIK NEGERI JEMBER"
+            android:textAlignment="center"
+            android:textColor="#a6a6a6"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

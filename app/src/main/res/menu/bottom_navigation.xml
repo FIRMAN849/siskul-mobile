@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navHome"
+        android:icon="@drawable/iconhome"
+        android:title="Home"/>
+    <item
+        android:id="@+id/navDaftar"
+        android:icon="@drawable/iconwrite"
+        android:title="Daftar Ekskul"/>
+    <item
+        android:id="@+id/navProfile"
+        android:icon="@drawable/iconuser"
+        android:title="Profile"/>
+
+</menu>

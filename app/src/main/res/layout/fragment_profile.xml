@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+        <TextView
+            android:id="@+id/txtProfile"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="Profile"
+            android:textColor="#2f2f2f"
+            android:textSize="18dp" />
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_below="@+id/txtProfile"
+            android:layout_height="2dp"
+            android:background="#f4f4f4"/>
+        <TextView
+            android:id="@+id/txtPrestasi"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txtProfile"
+            android:text="Prestasi"
+            android:textColor="#2f2f2f"
+            android:textSize="18dp" />
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_below="@+id/txtPrestasi"
+            android:layout_height="2dp"
+            android:background="#f4f4f4"/>
+        <TextView
+            android:id="@+id/txtTentang"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txtPrestasi "
+            android:text="Tentang"
+            android:textColor="#2f2f2f"
+            android:textSize="18dp" />
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_below="@+id/txtTentang"
+            android:layout_height="2dp"
+            android:background="#f4f4f4"/>
+        <TextView
+            android:id="@+id/txtLogout"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txtTentang"
+            android:text="Logout"
+            android:textColor="#2f2f2f"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "84671622499",
+    "project_id": "si-eksrakurikuler",
+    "storage_bucket": "si-eksrakurikuler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84671622499:android:97cfc11fc064a34e447756",
+        "android_client_info": {
+          "package_name": "com.example.siekstrakurikuler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84671622499-til37hh9ru0sqs3s1dfts4s1nsqb6aqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.siekstrakurikuler",
+            "certificate_hash": "e3d66c202001f6b53f01b5eabbb97f60bce229fa"
+          }
+        },
+        {
+          "client_id": "84671622499-tlqpsu2bgpktdv59kns64e3kp973b25a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvnyupjDj5NWl-2Q2TvK4DIgk-92hnZzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84671622499-tlqpsu2bgpktdv59kns64e3kp973b25a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

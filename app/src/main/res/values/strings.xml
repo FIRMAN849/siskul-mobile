@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SI EKSTRAKURIKULER</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ekskul">Ekskul</string>
+    <string name="desk">Desk</string>
+
+</resources>

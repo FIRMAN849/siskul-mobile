@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:id="@+id/loginAtas"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"
+            android:src="@drawable/logo2" />
+
+        <ImageView
+            android:layout_width="227dp"
+            android:layout_height="240dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="70dp"
+            android:src="@drawable/bglogin" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/loginBawah"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/loginAtas"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/bgloginbawah"
+        android:paddingLeft="20sp"
+        android:paddingTop="40sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="20sp">
+
+        <TextView
+            android:id="@+id/txtlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="Login"
+            android:textColor="#2f2f2f"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtdesklogin"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtlogin"
+            android:fontFamily="@font/semibold"
+            android:text="Welcome back! please enter your account "
+            android:textColor="#a6a6a6"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtdesklogin"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_bg"
+            android:fontFamily="@font/semibold"
+            android:hint="Enter your email"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#3a3a3a"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextEmail"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_bg"
+            android:fontFamily="@font/semibold"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#3a3a3a"
+            android:textSize="16sp" />
+
+
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextPassword"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FE2659"
+            android:fontFamily="@font/bold"
+            android:text="Sign In"
+            android:textSize="16sp"
+            app:cornerRadius="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnlogin"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/semibold"
+                android:text="Don't have an account? "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/semibold"
+                android:text="Create Account"
+                android:textColor="#FE2659"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

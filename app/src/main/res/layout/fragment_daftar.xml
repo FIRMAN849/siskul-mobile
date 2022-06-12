@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:id="@+id/titleDaftarEkskul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendaftaran Ekskul"
+            android:fontFamily="@font/bold"
+            android:textSize="20dp"
+            android:textColor="#2f2f2f"/>
+        <EditText
+            android:id="@+id/etextNama"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="enter your name"
+            android:textColor="#2f2f2f"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/titleDaftarEkskul"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"/>
+        <EditText
+            android:id="@+id/etextKelas"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="enter your kelas"
+            android:paddingLeft="10dp"
+            android:textColor="#2f2f2f"
+            android:layout_below="@+id/etextNama"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"/>
+        <EditText
+            android:id="@+id/etextAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="enter your alamat"
+            android:paddingLeft="10dp"
+            android:textColor="#2f2f2f"
+            android:layout_below="@+id/etextKelas"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"/>
+        <EditText
+            android:id="@+id/etextEkskul"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="enter your ekskul"
+            android:paddingLeft="10dp"
+            android:textColor="#2f2f2f"
+            android:layout_below="@+id/etextAlamat"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/etextAlasan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="enter your alasan"
+            android:inputType="textMultiLine"
+            android:paddingLeft="10dp"
+            android:textColor="#2f2f2f"
+            android:textSize="14sp"
+            android:layout_below="@+id/etextEkskul"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btnDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/etextAlasan"
+            android:background="@drawable/btnlogin_bg"
+            android:backgroundTint="#fe2659"
+            android:layout_marginTop="20dp"
+            android:text="Daftar"/>
+
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
